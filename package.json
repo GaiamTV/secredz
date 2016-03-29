@@ -1,0 +1,43 @@
+{
+  "name": "secredz",
+  "homepage": "https://github.com/GaiamTV/secredz",
+  "author": {
+    "name": "Gaia Engineering",
+    "url": "https://github.com/GaiamTV"
+  },
+  "contributors": [
+    {
+      "name": "Richard Jones",
+      "url": "https://github.com/talentedmrjones"
+    }
+  ],
+
+  "description": "secredz stores credentials in S3 as encrypted JSON files.",
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GaiamTV/secredz.git"
+  },
+
+  "version": "0.1.0",
+
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://rem.mit-license.org"
+    }
+  ],
+
+  "main": "./index.js",
+
+  "dependencies": {
+    "aws-sdk": "2.2.48"
+  },
+
+  "engines": {
+    "node": "*"
+  },
+
+  "scripts": {
+  }
+}
